@@ -1,0 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+packages/*/node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# Local env files (e.g., Vercel, Netlify)
+.vercel
+.netlify
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Optional logs for express or debug modules
+debug.log
+npm-debug.log
+yarn-error.log
+
+# Coverage directory used by testing tools
+coverage/
+
+# React-specific
+frontend/node_modules/
+frontend/build/
+
+# Uploaded files (e.g., Cloudinary temp)
+uploads/
+tmp/
+*.bak
+
+# Sequelize CLI migrations config
+.sequelizerc
+
+# TypeScript cache (if using)
+*.tsbuildinfo
+
+# Misc
+*.swp
+*.swo

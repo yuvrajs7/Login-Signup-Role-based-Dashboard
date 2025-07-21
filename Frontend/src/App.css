@@ -1,0 +1,125 @@
+/* Body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #0066ff;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* App container */
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Form container styling */
+.form-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 13%;
+}
+
+/* Toggle button wrapper */
+.toggle-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Toggle buttons */
+.toggle-buttons button {
+    flex: 1;
+    padding: 10px 0;
+    margin: 0 5px;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 16px;
+    transition:
+        background 0.3s,
+        color 0.3s;
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+/* Active tab style */
+.toggle-buttons .active {
+    background-color: #0066ff;
+    color: #fff;
+}
+
+/* Form layout */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Form title */
+.form h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+}
+
+/* Inputs */
+.form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Links (e.g. forgot password) */
+.form a {
+    font-size: 0.9em;
+    color: #0066ff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    align-self: flex-end;
+}
+
+/* Form button */
+.form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.form button:hover {
+    background-color: #004ecc;
+}
+
+/* Bottom link for switching forms */
+.form p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.form .link {
+    color: #0066ff;
+    cursor: pointer;
+    font-weight: bold;
+}
+.link {
+    color: #0066ff;
+    cursor: pointer;
+    font-weight: bold;
+}

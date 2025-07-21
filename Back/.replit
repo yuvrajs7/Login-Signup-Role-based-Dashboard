@@ -1,0 +1,26 @@
+entrypoint = "index.js"
+modules = ["nodejs-22"]
+hidden = [".config", "package-lock.json"]
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["node", "index.js"]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
+
+[workflows]
+runButton = "run"
+
+[[workflows.workflow]]
+name = "run"
+mode = "sequential"
+author = 43427266
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node server.js"
